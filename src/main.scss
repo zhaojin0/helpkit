@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+@import '~font-awesome-sass/assets/stylesheets/font-awesome';
+
+.now-loading {
+  display: none;
+}
+
+.loading {
+  .now-loading {
+    display: block;
+  }
+}
